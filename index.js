@@ -60,7 +60,7 @@ function getMovie() {
             let output = `
                 <div class="showcase-movie__about-section">
                     <figure class="showcase-movie__img--wrapper">
-                        <img src="${movie.Poster} class="movie__img-thumbnail" alt="">
+                        <img src="${movie.Poster}" class="movie__img-thumbnail" alt="">
                     </figure>
                     <div class="showcase-movie__about">
                         <h2 class="showcase-movie__about--title">${movie.Title}</h2>
