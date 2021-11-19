@@ -95,7 +95,7 @@ function getMovie() {
                     ${movie.Plot}
                     <hr />
                     <div class="showcase-movie__links--list">
-                        <a class="showcase-movie__link click" href="http://imdb.com/title/${movie.imdbID}" target="_blank">View IMDB</a>
+                        <a class="showcase-movie__link click" href="https://imdb.com/title/${movie.imdbID}" target="_blank">View IMDB</a>
                         <a class="showcase-movie__link click" href="index.html">Go Back to Search</a>
                     </div>
                 </div>
