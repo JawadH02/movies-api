@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Movies</title>
+</head>
+
+<body>
+    <section id="landing">
+        <nav>
+            <figure>
+                <img src="./assets/logo.png" alt="" id="personal-logo">
+            </figure>
+            <ul class="nav__link--list">
+                <li class="nav__link no-cursor">
+                    <a href="#" class="
+                                nav__link--anchor 
+                                link__hover-effect 
+                                link__hover-effect--black">
+                        Home</a>
+                </li>
+                <li class="nav__link">
+                    <a href="/index.html" class="
+                                nav__link--anchor 
+                                link__hover-effect 
+                                link__hover-effect--black">
+                        Find a movie</a>
+                </li>
+                <li class="nav__link no-cursor">
+                    <a href="#" class="
+                                nav__link--anchor
+                                nav__link--anchor-primary">
+                        Contact</a>
+                </li>
+            </ul>
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="menu__list">
+                        <a href="#" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link">Find your Movies</a>
+                    </li>
+                    <li class="menu__list">
+                        <a href="#" class="menu__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        </section>
+    <main>
+        <section id="showcase">
+            <div class="showcase__container">
+                <div class="showcase__row">
+                    <div id="showcase-movie" class="showcase__movie">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+
+    <script>
+        getMovie();
+    </script>
+</body>
+
+</html>
